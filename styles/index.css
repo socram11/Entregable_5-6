@@ -1,0 +1,69 @@
+body {
+    padding: 30px;
+    background-color: white(255, 252, 252);
+
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-around;
+    height:30px;
+}
+
+.logoDiv {
+   background-image: url(../assets/images/Logo.png);
+   background-repeat: no-repeat;
+   width: 60px;
+   height: 60px;
+}
+
+.LeftDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 414px;
+}
+
+.RightDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 142px;
+}
+
+.headerButtons {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.SignUpButton {
+    background-color: rgb(100, 60, 214);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 12px;
+    height: 33px;
+    width: 80;
+    font-weight: bold;    
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    background-color: grey;
+    margin-top: 90px;
+    margin-left: 270px;
+    margin-right: 140px;
+    width: 940px;
+}
+
+.leftMain {
+    background-color: aliceblue;
+    width: 400px;
+}
+
+.form {
+   background-color: aliceblue;
+   width: 400px;
+}
