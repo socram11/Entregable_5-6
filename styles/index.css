@@ -1,6 +1,6 @@
 body {
     padding: 30px;
-    background-color: white(255, 252, 252);
+    background-color: white(255, 255, 255);
 
 }
 
@@ -51,7 +51,7 @@ body {
     display: flex;
     justify-content: space-around;
     height: 550px;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     margin-top: 90px;
     margin-left: 270px;
     margin-right: 140px;
@@ -59,11 +59,48 @@ body {
 }
 
 .leftMain {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 400px;
 }
 
 .form {
-   background-color: aliceblue;
+   background-color: rgb(255, 255, 255);
    width: 400px;
+   border: 2px;
+   border-radius: 5px;
+   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.2);
 }
+
+input {
+    padding: 7px;
+    margin: 6px;
+    margin-left: 21px;
+    margin-top: 28px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: gray;
+ }
+
+ textarea {
+    padding: 7px;
+    margin: 6px;
+    margin-left: 21px;
+    margin-top: 28px;
+    border-radius: 5px;
+    width: 360px;
+    font-weight: bold;
+ }
+
+ .send {
+    padding: 7px;
+    margin: 6px;
+    margin-left: 21px;
+    margin-top: 18px;
+    width: 362px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:rgb(100, 60, 214);
+    color: white;
+    font-weight: bold;
+    border: none;
+ }
