@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-around;
     height:30px;
+    width: 1450px;
 }
 
 .logoDiv {
@@ -20,7 +21,7 @@ body {
 .LeftDiv {
     display: flex;
     justify-content: space-between;
-    width: 414px;
+    width: 440px;
 }
 
 .RightDiv {
@@ -78,7 +79,6 @@ input {
     margin-top: 28px;
     border-radius: 5px;
     font-weight: bold;
-    border-color: gray;
  }
 
  textarea {
@@ -104,3 +104,62 @@ input {
     font-weight: bold;
     border: none;
  }
+
+.Title {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 33px;
+    line-height: 30px;
+}
+
+.firstText {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+} 
+
+.imageTitle {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} 
+
+.image {
+    background-image: url(../assets/images/images.jpeg);
+    border-radius: 10px;
+    width: 382px;
+    height: 132px;
+}    
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}  
+
+.uk {
+    display: flex;
+    justify-content: start;
+    width: 160px;
+    height: 200px;
+    padding-top: 15px;
+}  
+
+.Fr {
+    display: flex;
+    justify-content: start;
+    width: 160px;
+    padding-top: 15px;
+}
+
+.CountryName {
+    height: 20px;
+}
+
+.ubicationPic {
+    width: 34px;
+    height: 34px;
+    background-image: url(../assets/images/icon\ ubication\ uk.png);
+    display: flex;
+    justify-content: start;
+    margin-top: 60px;
+}  
+
+    
