@@ -135,31 +135,39 @@ input {
 }  
 
 .uk {
-    display: flex;
-    justify-content: start;
-    width: 160px;
-    height: 200px;
+    width: 160px;   
     padding-top: 15px;
 }  
 
 .Fr {
-    display: flex;
-    justify-content: start;
     width: 160px;
     padding-top: 15px;
 }
 
-.CountryName {
+.countrynamediv {
     height: 20px;
+    min-width: 150px;
+    padding: 3px;
+    clear: left;
+}
+
+.footercontent{
+    min-width: 160px;
+    height: 75px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
 }
 
 .ubicationPic {
-    width: 34px;
-    height: 34px;
     background-image: url(../assets/images/icon\ ubication\ uk.png);
-    display: flex;
-    justify-content: start;
-    margin-top: 60px;
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+   
 }  
+
+
 
     
