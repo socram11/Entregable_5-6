@@ -33,9 +33,20 @@ body {
 .headerButtons {
     background-color: transparent;
     border: none;
+    border-radius: 8px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 12px;
+    height: 33px;
+    padding: 3px;
+    transition: 500ms ease;
+    padding-left: 7px; 
+    padding-right: 7px;
 }
+
+.headerButtons:hover {
+    background-color: rgb(205, 205, 205);
+}
+
 
 .SignUpButton {
     background-color: rgb(100, 60, 214);
@@ -48,12 +59,16 @@ body {
     font-weight: bold;    
 }
 
+.SignUpButton:hover {
+    background-color:rgb(66, 35, 153); ;
+}
+
 .mainDiv {
     display: flex;
     justify-content: space-around;
     height: 550px;
     background-color: rgb(255, 255, 255);
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: 270px;
     margin-right: 140px;
     width: 940px;
@@ -103,6 +118,10 @@ input {
     color: white;
     font-weight: bold;
     border: none;
+ }
+
+ .send:hover {
+    background-color:rgb(66, 35, 153); 
  }
 
 .Title {
@@ -168,6 +187,21 @@ input {
    
 }  
 
+.telephone {
+    min-width: 160px;
+    height: 75px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+ 
+.phonePic{
+    background-image: url(../assets/images/icon\ phone.png);
+    width: 30px;
+    height: 30px;
+    margin-top:2px;
+}
 
 
     
