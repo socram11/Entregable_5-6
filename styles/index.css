@@ -1,14 +1,15 @@
 body {
     padding: 30px;
     background-color: white(255, 255, 255);
-
 }
+
+/*HEADER*/
 
 .headerDiv {
     display: flex;
     justify-content: space-around;
     height:30px;
-    width: 1450px;
+    width: 100%;
 }
 
 .logoDiv {
@@ -30,6 +31,14 @@ body {
     width: 142px;
 }
 
+.icon{
+    background-image: url(../assets/images/Hamburguer.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    display: none;
+}
+
 .headerButtons {
     background-color: transparent;
     border: none;
@@ -44,7 +53,7 @@ body {
 }
 
 .headerButtons:hover {
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(211, 211, 211);
 }
 
 
@@ -62,6 +71,8 @@ body {
 .SignUpButton:hover {
     background-color:rgb(66, 35, 153); ;
 }
+
+/*MAIN*/
 
 .mainDiv {
     display: flex;
@@ -84,7 +95,7 @@ body {
    width: 400px;
    border: 2px;
    border-radius: 5px;
-   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.2);
+   box-shadow: 3px 4px 6px  rgba(0, 0, 0, 0.2);
 }
 
 input {
@@ -148,6 +159,8 @@ input {
     height: 132px;
 }    
 
+/*FOOTER*/
+
 .footer {
     display: flex;
     justify-content: space-around;
@@ -203,5 +216,111 @@ input {
     margin-top:2px;
 }
 
+
+@media screen and (max-width: 650px) {
+
+    body{
+        padding-top: 10px;
+        padding-left: 44px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .headerDiv {
+        display: flex;
+        justify-content: space-around;
+        height:30px;
+        width: 320px;
+    }
+
+    .headerButtons {
+        display: none;
+    }
+
+    .SignUpButton {
+        display: none;
+    }
+
+    .logoDiv{
+        margin-top: 5px;
+    }
+
+    .icon{
+        display: block;
+        float: right;
+        width: 40px;
+        height: 30px;
+        margin-top:16px; 
+    }
+
+    .mainDiv {
+        display: flex;
+        height: 550px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 380px;
+        width: 350px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 10px;
+        align-items: start;
+    }
+    
+    .leftMain {
+        background-color: rgb(255, 255, 255);
+        width: 320px;
+    }  
+    
+    .image {
+        background-image: url(../assets/images/images.jpeg);
+        border-radius: 10px;
+        width: 318px;
+        height: 132px;
+    }    
+
+    .form{
+        background-color: rgb(255, 255, 255);
+        width: 320px;
+        border: 2px;
+        border-radius: 5px;
+        box-shadow: 3px 4px 6px  rgba(0, 0, 0, 0.2);
+    }
+
+    input{
+    padding: 7px;
+    margin: 6px;
+    margin-left: 21px;
+    margin-top: 22px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 280px;;
+    }    
+
+    textarea {
+        padding: 7px;
+        margin: 6px;
+        margin-left: 21px;
+        margin-top: 22px;
+        border-radius: 5px;
+        font-weight: bold;
+        width: 280px;
+        height: 120pz;
+     }
+
+     .send {
+        padding: 7px;
+        margin: 6px;
+        margin-left: 21px;
+        margin-top: 18px;
+        width: 362px;
+        height: 40px;
+        border-radius: 5px;
+        background-color:rgb(100, 60, 214);
+        color: white;
+        font-weight: bold;
+        border: none;
+        width: 280px;
+     }
+}
+    
 
     

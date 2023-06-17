@@ -1,6 +1,8 @@
 <head>
     <title>Entregable 5/6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -14,8 +16,13 @@
                 <button class="headerButtons">Contact</button>
             </div>
             <div class="RightDiv">
-                <button class="headerButtons">Login</button>
-                <button class="SignUpButton">Sign Up</button>
+                <a href="./login.html">
+                    <button class="headerButtons">Login</button>
+                </a>
+                <a href="./signUp.html">
+                    <button class="SignUpButton">Sign Up</button>
+                </a>
+                <div class="icon"></div>
             </div>
         </div>
     </header>
@@ -32,17 +39,17 @@
                 <div class="footer">
                     <div class="Uk">
                         <div class="countrynamediv">
-                            <h4 class="CountryName">United Kingdom</h4>
-                            
+                            <h4 class="CountryName">United Kingdom</h4>   
                         </div>
+
                         <div class="footercontent">
                             <div class="ubicationPic"></div>
-                            <h5 style="width: 124px;">30 Eastbourn Terrace Paddington, London W2 6LA, UK</h5>
+                            <h5 style="width: 124px;"> <a href="https://www.google.com.uy/maps/place/30+Eastbourne+Terrace,+London+W2+6LA,+Reino+Unido/@51.5168037,-0.1761885,14.92z/data=!4m6!3m5!1s0x48761aad19b77c9d:0x472e512062063b84!8m2!3d51.516503!4d-0.1785751!16s%2Fg%2F11c28y21zf?hl=es-419&entry=ttu">30 Eastbourn Terrace Paddington, London W2 6LA, UK</a></h5>
                         </div>
                         
                         <div class="telephone">
                             <div class="phonePic"></div>
-                            <h5 style="width: 124px;margin-top: 12px;">+44 13 5135 1051</h5>
+                            <h5 style="width: 124px;margin-top: 12px;"><a href="">+44 13 5135 1051</a></h5>
                         </div>
                     </div>
 
@@ -50,29 +57,29 @@
                     <div class="Fr">
                         <div class="countrynamediv">
                             <h4 class="CountryName">France</h4>
-                            
                         </div>
+
                         <div class="footercontent">
                             <div class="ubicationPic"></div>
-                            <h5 style="width: 124px;">266 Place Ernest Granier 34000 Montpellier, France</h5>
-                    
+                            <h5 style="width: 124px;"><a href= "https://www.google.com.uy/maps/place/266+Pl.+Ernest+Granier,+34000+Montpellier,+Francia/@43.601321,3.8979542,17z/data=!3m1!4b1!4m6!3m5!1s0x12b6af860a312943:0x93bc665724b39ca!8m2!3d43.601321!4d3.9005291!16s%2Fg%2F11c5dvkn63?hl=es-419&entry=ttu">266 Place Ernest Granier 34000 Montpellier, France</a></h5>
                         </div>
 
                         <div class="telephone">
                             <div class="phonePic"></div>
-                            <h5 style="width: 124px; margin-top: 12px;">+33 5 12 18 21 86</h5>
+                            <h5 style="width: 124px; margin-top: 12px;"><a href="">+33 5 12 18 21 86</a></h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="form">
-                <input type="text" size="16" maxlength="30" placeholder="First name" name="nombre">
-                <input type="text" size="16" maxlength="30" placeholder="Last name" name="apellido">
-                <input type="text" size="42" maxlength="30" placeholder="Email adress" name="email">
-                <input type="text" size="42" maxlength="30" placeholder="Company name" name="Compania">
-                <input type="text" size="42" maxlength="30" placeholder="Phone number" name="telefono">
+
+            <div class="form" name="form">
+                <input type="text" size="16" maxlength="30" placeholder="First name" name="nombre" id="First name" required>
+                <input type="text" size="16" maxlength="30" placeholder="Last name" name="apellido" id="Last name" required>
+                <input type="text" size="42" maxlength="30" placeholder="Email adress" name="Email" id="Email addres" required>
+                <input type="text" size="42" maxlength="30" placeholder="Company name" name="Compania" id="Company name" required autocomplete="organization">
+                <input type="text" size="42" maxlength="30" placeholder="Phone number" name="telefono" id="Phone number" required autocomplete="tel">
                 <textarea name="mensaje" rows="10" cols="45">Message</textarea>
-                <button class="send">Send</button>
+                <button class="send" onclick="formFunction()">Send</button>
             </div>
         </div>
     </main>
